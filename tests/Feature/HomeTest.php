@@ -25,6 +25,8 @@ class HomeTest extends TestCase
         $response->assertStatus(302);
     }
 
+    // test login 
+    // should return 204
     public function test_login() {
         $cin = "your cin"; // cin in user table
         $password = "your password"; // password in user table
