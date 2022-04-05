@@ -1,6 +1,16 @@
 ## Project Description
 This project created only for storing and saving people data, where there is one admin and he can add multiple persons (collaboraters).
 
+## How to install ?
+
+1. run **composer update** command.
+2. run **composer install** command.
+3. run **php artisan migrate** command.
+4. insert two records to users table: One admin, Two not admin
+![alt text](/public/screenshots/records.png "records screenshot")
+
+5. run **php artisan serve** command. 
+
 ## How to use ?
 ###### if you are the admin:
 
@@ -31,13 +41,3 @@ This project created only for storing and saving people data, where there is one
 
     2. You can register data.
 ![alt text](/public/screenshots/register_not_admin.png "register new users screenshot")
-
-## How to install ?
-
-1. run **composer update** command.
-2. run **composer install** command.
-3. run **php artisan migrate** command.
-4. insert two records to users table: One admin, Two not admin
-![alt text](/public/screenshots/records.png "records screenshot")
-
-5. run **php artisan serve** command. 
