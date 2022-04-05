@@ -85,7 +85,7 @@
             </table>
 
         @else
-            <div class="position-absolute d-flex justify-content-center w-100 mt-4">
+            <div class="position-absolute d-flex justify-content-start w-100 mt-4">
 
                 @if($isSearching)
                     <h4>No result found</h4>

@@ -32,9 +32,8 @@ class HomeController extends Controller
     }
 
     /**
-     * Show the application dashboard.
+     * Search people
      *
-     * @return \Illuminate\Contracts\Support\Renderable
      */
     public function index()
     {
